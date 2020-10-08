@@ -1,45 +1,54 @@
-body{
-    padding: 20px;
-    color: #5a5a5a;
+body {
+  /* padding: 20px; */
+  color: #5a5a5a;
 }
-.wrapper{
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 20;
-    
-}
-
-.carousel{
-    height: 500px;
-    margin-bottom: 50px;
-
-
-
-
-
-
-}
-.carousel-inner > .item > img{
-    position: absolute;
-    height: 500px;
-    min-width: 100%;
-    top: 0;
-    left: 0;
+.wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  /* z-index: 20; */
 }
 
-
-.carousel .item{
-
-    height: 500px;
-    background-color: #777;
+.carousel {
+  height: 400px;
+  margin-bottom: 50px;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  height: 400px;
+  min-width: 100%;
+  top: 0;
+  left: 0;
 }
 
-.wrapper > .container{
-    padding-left: 0;
-    padding-right: 0;
+.carousel .item {
+  height: 400px;
+  background-color: #777;
 }
-.wrapper .navbar .container{
-    width: auto;
+
+.wrapper > .container {
+  padding-left: 0;
+  padding-right: 0;
+}
+.wrapper .navbar .container {
+  width: auto;
+}
+
+
+.container img {
+  padding-top: 15px;
+}
+.row{
+    text-align: center;
+    padding-top: 20px;
+}
+.footer{
+    padding-left: 100px;
+}
+.c{
+    color: red;
+}
+.l{
+    color: red;
 }
